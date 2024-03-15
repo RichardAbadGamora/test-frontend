@@ -1,0 +1,27 @@
+@mixin site-input {
+  @apply block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-typo-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 text-app-sm leading-6 disabled:text-typo-400 disabled:cursor-not-allowed dark:bg-gray-900 dark:text-typo-50 dark:ring-gray-600;
+}
+
+.app__input {
+  @include site-input;
+}
+
+.app__checkbox {
+  @apply h-4 w-4 rounded border-gray-300 text-primary-600 focus:ring-primary-600;
+}
+
+.app__form-label {
+  @apply block text-app-sm font-medium leading-6 text-typo-900 dark:text-typo-50;
+}
+
+.app__form-label-icon {
+  @apply inline-flex text-app-sm font-medium leading-6 text-typo-900;
+}
+
+.app__link {
+  @apply cursor-pointer hover:underline;
+}
+
+.app__input-error {
+  @apply text-app-xs text-red-500;
+}

@@ -1,0 +1,7 @@
+@import './../mixins.scss';
+
+.folder__item {
+  @include app__border--dashed;
+  @include app__border--dashed__dark;
+  @apply bg-gray-50 hover:bg-gray-100 h-10 rounded cursor-pointer;
+}

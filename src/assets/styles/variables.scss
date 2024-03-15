@@ -1,0 +1,65 @@
+:root {
+  --color-page-bg: #ffffff;
+
+  --color-primary-50: #f8fafc;
+  --color-primary-100: #f1f5f9;
+  --color-primary-200: #e2e8f0;
+  --color-primary-300: #cbd5e1;
+  --color-primary-400: #94a3b8;
+  --color-primary-500: #64748b;
+  --color-primary-600: #475569;
+  --color-primary-700: #334155;
+  --color-primary-800: #1e293b;
+  --color-primary-900: #0f172a;
+  --color-primary-950: #020617;
+	--color-primary-rgb: 79,70,229;
+  --color-primary: #1e293b;
+	--color-primary-rgb: 30,41,59;
+	--color-primary-contrast: #ffffff;
+	--color-primary-contrast-rgb: 255,255,255;
+	--color-primary-shade: #1a2434;
+	--color-primary-tint: #353e4f;
+	--color-primary-disabled: rgba(var(--color-primary-rgb), 0.75);
+
+  --color-typo: #111827;
+  --color-typo-50: #f9fafb;
+  --color-typo-100: #f3f4f6;
+  --color-typo-200: #e5e7eb;
+  --color-typo-300: #d1d5db;
+  --color-typo-400: #9ca3af;
+  --color-typo-500: #6b7280;
+  --color-typo-600: #4b5563;
+  --color-typo-700: #374151;
+  --color-typo-800: #1f2937;
+  --color-typo-900: #111827;
+  --color-typo-950: #030712;
+
+  /* Dark mode text colors */
+  --dark-color-typo: #f9fafb;
+  --dark-color-typo-50: #f3f4f6;
+  --dark-color-typo-100: #e5e7eb;
+  --dark-color-typo-200: #d1d5db;
+  --dark-color-typo-300: #9ca3af;
+  --dark-color-typo-400: #6b7280;
+  --dark-color-typo-500: #4b5563;
+  --dark-color-typo-600: #374151;
+  --dark-color-typo-700: #1f2937;
+  --dark-color-typo-800: #111827;
+  --dark-color-typo-900: #030712;
+
+  --font-3xs: 8px;
+  --font-2xs: 10px;
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-base: 16px;
+  --font-lg: 18px;
+  --font-xl: 20px;
+  --font-2xl: 24px;
+  --font-3xl: 30px;
+  --font-4xl: 36px;
+  --font-5xl: 48px;
+  --font-6xl: 60px;
+  --font-7xl: 72px;
+  --font-8xl: 96px;
+  --font-9xl: 128px;
+}

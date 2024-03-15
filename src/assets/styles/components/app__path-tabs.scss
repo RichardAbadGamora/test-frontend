@@ -1,0 +1,14 @@
+#app__path-tabs {
+  background: rgb(255 255 255 / 0%);
+  .path__tab {
+    @apply whitespace-nowrap border-b-4 p-3 text-app-sm font-medium inline-flex items-center gap-2 uppercase;
+
+    &.tab--active {
+      @apply border-b-4 border-primary-200 text-typo-50;
+    }
+
+    &.tab--inactive {
+      @apply border-transparent text-typo-100 hover:border-gray-300;
+    }
+  }
+}

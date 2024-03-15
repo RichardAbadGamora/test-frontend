@@ -1,0 +1,74 @@
+@import 'variables';
+@import 'controls';
+@import 'buttons';
+@import 'tables';
+
+.app__page-heading {
+  @apply text-app-2xl font-bold text-typo-900;
+}
+
+.data--empty {
+  @apply text-typo-400 cursor-default text-app-xs;
+}
+
+.v-popper--theme-tooltip {
+  .v-popper__inner {
+    background: #1e293b !important;
+    padding: 4px 8px !important;
+    font-size: var(--font-xs);
+  }
+
+  .v-popper__arrow-inner {
+    border-color: #1e293b !important;
+  }
+}
+
+.app__container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.vgl-layout {
+  --vgl-placeholder-bg: var(--color-primary-300) !important;
+}
+
+.can-reposition + .vgl-item__resizer {
+  display: inline;
+}
+
+.vgl-item__resizer {
+  opacity: 15%;
+  cursor: nwse-resize !important;
+  display: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.app__hr {
+  @apply my-6 dark:border-gray-700;
+}
+
+.prose-text-white * {
+  color: white !important;
+}
+
+.prose-text-typo * {
+  color: var(--color-typo) !important;
+}
+
+.hide__scrollbar {
+  // overflow-y: scroll;
+  // -ms-overflow-style: none;
+  // scrollbar-width: none;
+
+  // &::-webkit-scrollbar {
+  //   @apply w-3 bg-white dark:bg-gray-800;
+  // }
+
+  // &::-webkit-scrollbar-thumb {
+  //   @apply bg-gray-800 dark:bg-gray-400;
+  // }
+}

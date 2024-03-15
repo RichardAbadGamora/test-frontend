@@ -1,0 +1,41 @@
+.app__table-wrapper {
+  @apply max-w-full overflow-x-auto pb-1;
+}
+
+.app__table {
+  @apply min-w-full divide-y divide-gray-300;
+
+  table {
+    @apply min-w-full divide-y divide-gray-300;
+  }
+
+  th,
+  td {
+    @apply px-3 py-4 text-app-sm;
+  }
+
+  thead {
+    @apply bg-gray-50 text-typo-600;
+
+    th {
+      @apply text-left font-semibold whitespace-nowrap;
+    }
+  }
+
+  tbody {
+    @apply divide-y divide-gray-200 bg-white;
+
+    td {
+      @apply whitespace-nowrap text-typo;
+
+      &.data--empty {
+        @extend .data--empty;
+        @apply text-center;
+      }
+    }
+  }
+
+  .table__link {
+    @apply font-semibold hover:underline hover:cursor-pointer text-primary;
+  }
+}

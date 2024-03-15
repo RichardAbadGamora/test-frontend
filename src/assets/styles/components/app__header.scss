@@ -1,0 +1,5 @@
+#app__header {
+  .btn--action {
+    @apply rounded-full p-1 text-typo-400 hover:text-typo-500 focus:text-typo-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+}

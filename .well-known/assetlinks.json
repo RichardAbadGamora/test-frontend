@@ -1,0 +1,35 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.thio.android",
+            "sha256_cert_fingerprints": [
+                "04:DF:EC:90:EC:26:4D:57:21:A6:02:45:41:40:32:D4:A4:9E:76:71:A4:56:78:7D:14:19:61:8C:D0:A7:C7:40"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "web",
+            "site": "https://dev.thio.app"
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.thio.android",
+            "sha256_cert_fingerprints": [
+                "04:DF:EC:90:EC:26:4D:57:21:A6:02:45:41:40:32:D4:A4:9E:76:71:A4:56:78:7D:14:19:61:8C:D0:A7:C7:40"
+            ]
+        }
+    }
+]

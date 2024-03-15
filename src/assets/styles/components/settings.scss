@@ -1,0 +1,7 @@
+.setting-section__title {
+  @apply text-app-sm font-semibold leading-7 text-typo-900 dark:text-typo-50;
+}
+
+.setting-section__description {
+  @apply text-app-xs text-typo-500 dark:text-typo-300;
+}

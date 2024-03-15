@@ -1,0 +1,7 @@
+@mixin app__border--dashed {
+  @apply border-2 border-dashed dark:border-gray-600;
+}
+
+@mixin app__border--dashed__dark {
+  @apply dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-typo-50;
+}
